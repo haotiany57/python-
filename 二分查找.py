@@ -7,7 +7,7 @@ if xun>shan:
     print ("找不到")
     exit(0)
 while xia<=shan:
-    zhon=(xia+shan)/2 
+    zhon=(xia+shan)//2 
     if zhon==xun:
         print ("这个数是"+str(zhon))
         print ("找了"+str(jishu)+"次")
